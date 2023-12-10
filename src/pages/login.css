@@ -1,0 +1,35 @@
+.login-sginup{
+    padding-top: 100px;
+    width: 100%;
+    height: 80vh;
+    background-color: #fce3fe;
+}
+.login-sginup-conatiner{
+    width: 450px;
+    height:60vh;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.label{
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 29px;
+    margin-top: 30px;
+}
+.label input{
+    height: 70px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+}
+.label button {
+    width: 350px;
+    height: 72px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}

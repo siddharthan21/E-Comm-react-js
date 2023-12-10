@@ -1,0 +1,39 @@
+.shopcat-banner{
+    display: block;
+    margin: 50px 176px;
+}
+.shopcat-product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 20px 170px;
+    row-gap: 80px;
+}
+.shop-cat-indexsort{
+    display: flex;
+    margin: 0 170px;
+    align-items: center;
+    justify-content: space-between;
+}
+.shopcat-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+.shop-cat-indexsort p span{
+    font-weight: 1000;
+}
+.shopcat-loadmore{
+    margin: 100px auto;
+    height: 69px;
+    border-radius: 40px;
+    border: 1px solid #889;
+    width: 223px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    font-size: 18px;
+    font-weight: 700;
+}
